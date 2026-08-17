@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Justin See (REN 76363) helps first-time buyers find homes in Klang Utama, Setia Alam, Kapar and Shah Alam, with KIIP Kapar industrial and Pahang land services.">
+  <title>Justin See | Property Negotiator, REN 76363</title>
+  <style>
+    :root { --ink:#112126; --paper:#f8f6f1; --sand:#eae3d8; --forest:#23443d; --gold:#bb8b4b; --muted:#66716d; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.55; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1120px, calc(100% - 48px)); margin:auto; }
+    .eyebrow { color:var(--gold); font-size:.75rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+    .nav { position:absolute; z-index:2; inset:0 0 auto; color:#fff; padding:24px 0; }
+    .nav .wrap { display:flex; align-items:center; justify-content:space-between; gap:22px; }
+    .brand { font-family:Georgia, serif; font-size:1.4rem; letter-spacing:.02em; }
+    .nav-links { display:flex; align-items:center; gap:24px; font-size:.88rem; }
+    .nav-links a:hover { color:#f1cd9e; }
+    .hero { min-height:720px; display:grid; align-items:end; color:#fff; background:linear-gradient(105deg, rgba(10,26,27,.93) 0%, rgba(12,34,35,.74) 51%, rgba(11,24,24,.18) 100%), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1900&q=85') center/cover; }
+    .hero-content { max-width:760px; padding:150px 0 94px; }
+    h1, h2, h3 { font-family:Georgia, "Times New Roman", serif; line-height:1.08; font-weight:500; margin:0; }
+    h1 { margin:16px 0 22px; font-size:clamp(3rem, 7vw, 5.8rem); letter-spacing:-.045em; }
+    .hero p { max-width:580px; color:#e7e9e3; font-size:1.14rem; }
+    .buttons { display:flex; flex-wrap:wrap; gap:12px; margin-top:31px; }
+    .button { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:11px 20px; border:1px solid transparent; font-size:.9rem; font-weight:750; transition:.2s ease; }
+    .button.primary { background:#e6c08e; color:#172824; }
+    .button.primary:hover { background:#fff0d7; transform:translateY(-2px); }
+    .button.ghost { border-color:#dfe5dc; color:#fff; }
+    .button.ghost:hover { background:#fff; color:var(--forest); }
+    .metrics { position:relative; margin-top:-1px; color:#fff; background:var(--forest); }
+    .metrics .wrap { display:grid; grid-template-columns:repeat(3,1fr); }
+    .metric { padding:31px 28px; border-right:1px solid rgba(255,255,255,.17); }
+    .metric:last-child { border:0; }
+    .metric strong { display:block; color:#f0c98f; font:500 clamp(2rem,4vw,3.2rem)/1 Georgia,serif; }
+    .metric span { display:block; margin-top:7px; color:#d6dfd8; font-size:.88rem; }
+    section { padding:104px 0; }
+    .intro { display:grid; grid-template-columns:.82fr 1.18fr; gap:70px; align-items:center; }
+    .portrait { min-height:510px; margin:0; overflow:hidden; background:var(--sand); }
+    .portrait img { display:block; width:100%; height:100%; object-fit:cover; object-position:50% 28%; }
+    h2 { margin-top:12px; font-size:clamp(2.2rem,4vw,3.45rem); letter-spacing:-.035em; }
+    .body-copy { color:var(--muted); font-size:1.05rem; }
+    .note { margin-top:29px; padding:21px 23px; border-left:3px solid var(--gold); background:#f0ece4; font-size:.94rem; }
+    .services { background:var(--sand); }
+    .service-head { display:flex; align-items:end; justify-content:space-between; gap:30px; margin-bottom:37px; }
+    .service-head p { max-width:410px; margin:0; color:var(--muted); }
+    .service-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:#cfc4b5; }
+    .card { min-height:284px; padding:31px; background:#fcfaf6; }
+    .card .number { color:var(--gold); font:1.1rem Georgia,serif; }
+    h3 { margin:36px 0 12px; font-size:1.62rem; }
+    .card p { margin:0; color:var(--muted); font-size:.94rem; }
+    .listings { background:#f3efe7; }
+    .listing-card { display:grid; grid-template-columns:1.05fr .95fr; overflow:hidden; background:#fff; box-shadow:0 18px 50px rgba(22,37,35,.08); }
+    .listing-card img { width:100%; min-height:410px; height:100%; display:block; object-fit:cover; }
+    .listing-copy { display:flex; flex-direction:column; align-items:flex-start; justify-content:center; padding:54px; }
+    .listing-copy h3 { margin:12px 0 14px; font-size:2.2rem; }
+    .listing-copy p { max-width:450px; margin:0; color:var(--muted); }
+    .listing-price { margin:25px 0; color:var(--forest); font:500 2.25rem/1 Georgia,serif; }
+    .areas { display:grid; grid-template-columns:.8fr 1.2fr; gap:76px; align-items:center; }
+    .area-panel { position:relative; overflow:hidden; min-height:420px; padding:42px; display:flex; flex-direction:column; justify-content:end; color:#fff; background:linear-gradient(0deg,rgba(9,26,24,.86),rgba(9,26,24,.10)),url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=85') center/cover; }
+    .area-panel h3 { margin:10px 0 3px; font-size:2rem; }
+    .area-panel p { margin:0; color:#e0e5dc; }
+    .area-list { display:grid; grid-template-columns:repeat(2,1fr); gap:0; margin-top:25px; border-top:1px solid #d5d9d2; }
+    .area-list div { padding:18px 4px; border-bottom:1px solid #d5d9d2; font-weight:650; }
+    .area-list div:nth-child(odd) { margin-right:28px; }
+    .process { color:#f5f3ec; background:var(--ink); }
+    .process h2 { color:#fff; }
+    .process .eyebrow { color:#e6c08e; }
+    .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:50px; margin-top:52px; }
+    .step { border-top:1px solid #49605e; padding-top:18px; }
+    .step span { color:#e6c08e; font-size:.82rem; font-weight:800; }
+    .step h3 { margin:25px 0 9px; color:#fff; font-size:1.55rem; }
+    .step p { margin:0; color:#bdc9c5; }
+    .contact { padding:95px 0; background:#e6c08e; }
+    .contact .wrap { display:flex; justify-content:space-between; align-items:end; gap:40px; }
+    .contact h2 { max-width:660px; }
+    .contact p { margin:16px 0 0; max-width:640px; }
+    .contact .button { background:var(--ink); color:#fff; white-space:nowrap; }
+    .contact .button:hover { background:#294942; }
+    footer { padding:28px 0; color:#d1ddd7; background:#172c2d; font-size:.84rem; }
+    footer .wrap { display:flex; justify-content:space-between; gap:20px; }
+    @media (max-width:760px) { .wrap { width:min(100% - 34px,1120px); } .nav-links { display:none; } .hero { min-height:650px; } .hero-content { padding:130px 0 70px; } .metrics .wrap, .service-grid, .steps, .listing-card { grid-template-columns:1fr; } .metric { border-right:0; border-bottom:1px solid rgba(255,255,255,.17); } .intro, .areas { grid-template-columns:1fr; gap:42px; } .portrait { min-height:420px; } .listing-card img { min-height:280px; } .listing-copy { padding:32px; } section { padding:72px 0; } .service-head, .contact .wrap { align-items:start; flex-direction:column; } .area-list div:nth-child(odd) { margin-right:18px; } footer .wrap { flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#top">Justin See</a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#listings">Listings</a><a href="#areas">Areas</a><a href="#contact">Contact</a></nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-content">
+        <div class="eyebrow">Property Negotiator · REN 76363</div>
+        <h1 id="hero-title">Your first home,<br>made clearer.</h1>
+        <p>I help first-time buyers make considered, confident property choices across Klang Utama, Setia Alam, Kapar and Shah Alam.</p>
+        <div class="buttons"><a class="button primary" href="#contact">Start your home search</a><a class="button ghost" href="#services">Explore my services</a></div>
+      </div>
+    </section>
+
+    <aside class="metrics" aria-label="Experience highlights"><div class="wrap">
+      <div class="metric"><strong>70 sold</strong><span>Arrundina, Setia Alam · RM1.95m homes · Q3 2026</span></div>
+      <div class="metric"><strong>RM365k+</strong><span>Klang Utama homes fully booked</span></div>
+      <div class="metric"><strong>3 languages</strong><span>English · Mandarin · Bahasa Malaysia</span></div>
+    </div></aside>
+
+    <section id="about"><div class="wrap intro">
+      <figure class="portrait"><img src="assets/justin-see-profile.png" alt="Justin See, Property Negotiator"></figure>
+      <div><div class="eyebrow">Meet Justin</div><h2>Calm guidance for a meaningful decision.</h2><div class="body-copy"><p>I’m See Hooi Yong, also known as Justin See. As a Property Negotiator, I work with buyers who want the right home—not simply the next available listing.</p><p>My advice is practical and personal: we look closely at location, layout, budget and the kind of day-to-day life a home can support. The aim is a decision you can feel settled in.</p><div class="note">Serving first-time buyers, expat families, industrial occupiers and land buyers with clear, attentive support.</div></div></div>
+    </section>
+
+    <section class="services" id="services"><div class="wrap">
+      <div class="service-head"><div><div class="eyebrow">How I can help</div><h2>Property expertise,<br>in plain language.</h2></div><p>From a first terrace home to an industrial facility, every search begins with what works for you.</p></div>
+      <div class="service-grid">
+        <article class="card"><span class="number">01</span><h3>First homes</h3><p>Double-storey terrace homes, single-storey homes and practical family residences for buyers taking their first step.</p></article>
+        <article class="card"><span class="number">02</span><h3>Premium living</h3><p>Refined double- and triple-storey homes for families who value space, amenities and well-considered home systems.</p></article>
+        <article class="card"><span class="number">03</span><h3>Industry &amp; land</h3><p>KIIP Kapar factory units for light and medium industry, plus agricultural land opportunities across Pahang.</p></article>
+      </div>
+    </section>
+
+    <section class="listings" id="listings"><div class="wrap">
+      <div class="eyebrow">Featured listing</div><h2>Homes currently available.</h2>
+      <article class="listing-card"><img src="listings/klang-double-storey-terrace/assets/property-16.jpeg" alt="Exterior of a double-storey terrace house in Klang"><div class="listing-copy"><div class="eyebrow">Klang · For sale</div><h3>22 × 70 Double-Storey Terrace</h3><p>3 + 1 bedrooms, 2 + 1 bathrooms and practical access to Klang’s industrial and commercial areas.</p><div class="listing-price">RM480,000</div><a class="button primary" href="listings/klang-double-storey-terrace/index.html">View full listing</a></div></article>
+    </section>
+
+    <section id="areas"><div class="wrap areas">
+      <div class="area-panel"><div class="eyebrow">Local knowledge</div><h3>Where I work</h3><p>Established neighbourhoods, new launches and practical industrial spaces.</p></div>
+      <div><div class="eyebrow">Areas served</div><h2>Connected to the places you are considering.</h2><div class="area-list"><div>Klang Utama</div><div>Setia Alam</div><div>Kapar &amp; Bukit Kapar</div><div>Shah Alam</div><div>KIIP Kapar, Klang</div><div>Pahang agricultural land</div></div><p class="body-copy">KIIP Kapar is in Bukit Kapar, Klang. For Pahang land, I can help you begin with a discussion around your intended use, preferred district and title requirements.</p></div>
+    </section>
+
+    <section class="process"><div class="wrap"><div class="eyebrow">A straightforward process</div><h2>Move at a pace that feels right.</h2><div class="steps">
+      <div class="step"><span>01 — Listen</span><h3>Start with your brief.</h3><p>Tell me what matters: your budget, timeline, preferred area and the life you want the property to support.</p></div>
+      <div class="step"><span>02 — Narrow the field</span><h3>See the right options.</h3><p>I help you compare properties against the details that have the greatest bearing on your decision.</p></div>
+      <div class="step"><span>03 — Decide with clarity</span><h3>Take the next step.</h3><p>When a property feels right, I will help you move forward with clear communication and thoughtful support.</p></div>
+    </div></div></section>
+
+    <section class="contact" id="contact"><div class="wrap"><div><div class="eyebrow" style="color:#5d3b1c">Let’s talk</div><h2>Ready to explore a home that fits your next chapter?</h2><p>Share what you are looking for, and I’ll help you identify a sensible place to begin.</p></div><a class="button" href="mailto:?subject=Property%20enquiry%20for%20Justin%20See">Send an enquiry</a></div></section>
+  </main>
+
+  <footer><div class="wrap"><span>© 2026 Justin See / See Hooi Yong</span><span>Property Negotiator · REN 76363</span></div></footer>
+</body>
+</html>
